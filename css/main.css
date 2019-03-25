@@ -1,0 +1,125 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: solid lightgray 1px;
+}
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;   
+}
+
+nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin: 0px 20px;
+}
+
+.navOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.navOptions img {
+    align-self: center;
+    margin-bottom: 10px;
+    width: 28px;
+}
+
+#logout {
+    color: #ff503d;
+}
+
+#senior {
+    display: flex;
+    align-items: center;
+}
+
+#menuWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.menuActions {
+    background-color: #f4f5f7;
+    border: solid 1px #cccfd6;
+    position: relative;
+    padding: 10px;
+    width: 295px;
+    margin:10px 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #868686;
+}
+
+.layer2 {
+    position: absolute;
+}
+.layer3 {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.actionData p {
+    width: 140px;
+    text-align: end;
+    position: absolute;
+    bottom: 19px;
+    right: 11px;
+}
+
+.actionData img {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.badge {
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+.badge img {
+    position: absolute;
+}
+.badge p {
+    font-size: 11pt;
+    color: white;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+}
+.totalPoints {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    color: white;
+    background-color: #fe4f3c;
+    width: 165px;
+    height: 30px;
+}
+
+.banner {
+    width: 100%;
+    background-color: #dfe0e5;   
+    padding-left: 50px; 
+}
+
+.banner img {
+    height: 50px;
+}

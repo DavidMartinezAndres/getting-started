@@ -132,6 +132,14 @@ nav li {
 input {
     margin: 10px;
 }
+.moreMessages {
+    float: right;
+    padding: 15px;
+    margin-right: 30px;
+    width: 185px;
+    background-color: #e6e6e6;
+    color: #6b6b6b;
+}
 .selected {
     background-color: #ff503d;
     color: white;
@@ -152,8 +160,6 @@ input {
     background-color: #00d9be;
     color: #00857b;
 }
-
-
 
 article div {
     margin-top: 30px;

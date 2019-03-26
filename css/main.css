@@ -329,3 +329,81 @@ td {
     color: white;
     background-color: #ff8b81;
 }
+/* CIRCLE CARE STYLES */
+#circleNav {
+    display: flex;
+    border: solid 1px  #dedddb;
+}
+#circleNav > div {
+    flex-basis: 33%;
+    padding: 15px 0px;
+    text-align: center;
+    border-right: solid 1px #dedddb;
+}
+.selectedNav {
+    border-bottom: solid 5px #ff503b;
+}
+.pending {
+    position: relative;
+}
+.careBadge {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+.careBadge img {
+    height: 20px;
+    position: absolute;
+}
+.careBadge p {
+    font-size: 11pt;
+    color: white;
+    position: absolute;
+    left: 6px;
+}
+
+#myCircle {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f6f4;
+}
+
+.circleInfo {
+    margin: 30px auto;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #e0dedf;
+}
+
+#teamWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+#teamWrapper > div {
+    flex-basis: 50%;
+}
+.profileCard {
+    position: relative;
+    margin: 15px auto;
+    height: 150px;
+    width: 290px;
+    background-color: white;
+    border: solid 1px #d9d8d6;
+    border-left: solid 8px #ff503b;
+}
+.profileCard button{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+.profileCard div:first-child{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.userName {
+    text-align: right;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}

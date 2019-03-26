@@ -184,7 +184,6 @@ nav ul {
     background-color: #00d9be;
     color: #00857b;
 }
-
 article div {
     margin-top: 30px;
     float: right;
@@ -209,11 +208,9 @@ article div {
     width: 150px;
     color: #616161; 
 }
-
 #mailList div > * {
     margin: 0px 15px;
 }
-
 #mailList li div {
     display: flex;
 }
@@ -228,7 +225,6 @@ article div {
     display: flex;
     padding: 25px;
 }
-
 #calendarWrapper > div {
     margin: 25px;
     flex-basis: 50%
@@ -274,11 +270,9 @@ article div {
 .prueba {
     background-color: #00857b;
 }
-
 .expandedReminder p:first-child {
     color: #626262;
 }
-
 .expandedReminder {
     padding: 15px;
     width: 98%;
@@ -304,7 +298,6 @@ article div {
     display: flex;
     margin-bottom: 20px;
 }
-
 table {
     font-size: 24pt;
     width: 100%;
@@ -361,30 +354,24 @@ td {
     position: absolute;
     left: 6px;
 }
-
 #myCircle {
     display: flex;
     flex-direction: column;
     background-color: #f7f6f4;
 }
-
 .circleInfo {
     margin: 30px auto;
-    padding: 5px;
+    padding: 10px;
     border-radius: 2px;
     background-color: #e0dedf;
 }
-
-#teamWrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
 #teamWrapper > div {
-    flex-basis: 50%;
+    float: left;
+    width: 50%;
 }
 .profileCard {
     position: relative;
-    margin: 15px auto;
+    margin-top: 30px;
     height: 150px;
     width: 290px;
     background-color: white;

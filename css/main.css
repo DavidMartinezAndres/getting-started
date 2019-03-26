@@ -10,13 +10,16 @@ nav {
     flex-flow: row nowrap;
     justify-content: space-between
 }
+nav ul {
+    margin-right: 30px;
+    display: flex;
+    align-items: center; 
+}
 ul {
     list-style: none;
 }
-
-nav ul {
-    display: flex;
-    align-items: center;   
+#logo {
+    margin-left: 0;
 }
 nav li {
     font-size: 11pt;
@@ -42,7 +45,6 @@ nav li {
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
-
 }
 .menuActions {
     background-color: #f4f5f7;
@@ -106,11 +108,24 @@ nav li {
     background-color: #dfe0e5;   
     font-size: 21pt;
     color: #868686;
+    text-transform: uppercase;
+    position: relative;
 }
-.banner img {
-    margin: 0px 50px;
+.bannerImg {
+    position: absolute;
+    left:5%;
     height: 50px;
     float: left;
+}
+.additionalBannerImg {
+    position: absolute;
+    top: 25%;
+    right: 100px;
+}
+.banner p {
+    position: absolute;
+    top: 25%;
+    left: 12%;
 }
 #mail { 
     width: 940px;

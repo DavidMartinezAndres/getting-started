@@ -266,7 +266,7 @@
                         </li>
                     </ul>
                     <div><p class="more-messages bg-primary">5 Previously Messages</p></div>
-                    
+                    <div class="clear"></div>
                 </div>
             </div>
         </section>
@@ -286,31 +286,37 @@
                 <div id="today-schedule">
                     <h3>TODAY</h3>
                     <p>2 JULY / MONDAY</p>
+                    <div class="reminder-wrapper">
+                        <div class="reminder">
+                            <i class="fa fa-phone"></i>
+                            <div class="reminder-info">
+                                <h4>Call Dr. Smith</h4>
+                                <p>675 557 890</p>
+                            </div>
+                        </div>
+                    </div>
+                    
 
-                    <div class="reminder">
-                        <i class="fa fa-phone"></i>
-                        <div class="reminder-info">
-                            <h4>Call Dr. Smith</h4>
-                            <p>675 557 890</p>
+                    <div class="reminder-wrapper">
+                        <div class="reminder">
+                            <i class="fa fa-calendar"></i>
+                            <div class="reminder-info">
+                                <h4>OcularTest</h4>
+                                <p>Memorial Clinic Miami</p>
+                            </div>
+                            <i class="fa fa-close expand-reminder"></i>
+                        </div>
+                        <div class="expanded-reminder bg-primary ">
+                            <p>2 JULY 2012 / <strong>14:30</strong></p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, laborum aspernatur, illo earum consequuntur odio eligendi quo qui reprehenderit aut beatae architecto doloremque ipsa, eius dicta sapiente. Maiores, accusantium fugiat.</p>
+                            <div class="button-group">
+                                <button class="green-button">CHANGE</button>
+                                <button class="red-button">DONE</button>
+                            </div>
+                            <div class="clear"></div>
                         </div>
                     </div>
-
-                    <div class="reminder">
-                        <i class="fa fa-calendar"></i>
-                        <div class="reminder-info">
-                            <h4>OcularTest</h4>
-                            <p>Memorial Clinic Miami</p>
-                        </div>
-                        <i class="fa fa-close"></i>
-                    </div>
-                    <div class="expanded-reminder bg-primary">
-                        <p>2 JULY 2012 / <strong>14:30</strong></p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, laborum aspernatur, illo earum consequuntur odio eligendi quo qui reprehenderit aut beatae architecto doloremque ipsa, eius dicta sapiente. Maiores, accusantium fugiat.</p>
-                        <div class="button-group">
-                            <button class="green-button">CHANGE</button>
-                            <button class="red-button">DONE</button>
-                        </div>
-                    </div>
+                    
 
                 </div>
                 <!-- calendar -->
@@ -326,7 +332,6 @@
                         <table>
                             <thead id="calendar-head"></thead>
                             <tbody id="calendar-body"></tbody>
-
                         </table>
                     </div>
                 </div>

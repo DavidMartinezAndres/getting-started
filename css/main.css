@@ -226,7 +226,6 @@ article div {
     cursor: pointer;
 }
 .mail {
-    display: flex;
     padding: 20px;
     padding-left: -40px;
 }
@@ -236,7 +235,6 @@ article div {
     flex-direction: column;
 }
 #mail-list strong {
-    width: 33%;
     color: #616161; 
 }
 #mail-list div > * {
@@ -245,12 +243,7 @@ article div {
 #mail-list li div {
     display: flex;
 }
-.left {
-    margin-left: 0px;
-}
-.right {
-    margin-right: 0px;
-}
+
 /* CALENDAR STYLES  */
 #calendar-wrapper {
     display: flex;
@@ -274,9 +267,12 @@ article div {
     position: relative;
     margin: 10px 0px;
     padding: 10px;
-    width: 100%;
+    
     color: white;
     background-color: #ff503d;
+}
+.reminder-wrapper {
+    width: 100%;
 }
 .reminder i {
     font-size: 18pt;
@@ -303,7 +299,6 @@ article div {
 }
 .expanded-reminder {
     padding: 15px;
-    width: 98%;
     margin-top: -15px;
 }
 .expanded-reminder p:first-child {
@@ -311,7 +306,7 @@ article div {
     padding: 10px;
 }
 .button-group {
-    width: 50%;
+    float: right;
     margin: 0 auto;
 }
 .button-group button{

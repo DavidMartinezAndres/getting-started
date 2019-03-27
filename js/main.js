@@ -57,6 +57,25 @@ $( document ).ready(function() {
 
         element.querySelector("article")
     })
+    $('.expand-reminder').click((ev) => {
+        if (ev.target.classList.contains('fa-close')) {
+            ev.target.classList.remove('fa-close')
+            ev.target.classList.add('fa-angle-down')
+        } else {
+            ev.target.classList.remove('fa-angle-down')
+            ev.target.classList.add('fa-close')
+        }
+
+
+        let element = ev.target.parentElement.parentElement
+        .querySelector(".expanded-reminder")
+
+        if (element.classList.contains('hidden')) {
+            element.classList.remove('hidden')
+        } else {
+            element.classList.add('hidden')
+        }
+    })
 
     
 })

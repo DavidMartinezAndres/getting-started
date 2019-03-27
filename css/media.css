@@ -1,4 +1,7 @@
 @media (max-width: 650px) {
+    nav {
+        position: relative;
+    }
     nav strong {
         display: none;
     }
@@ -24,12 +27,23 @@
         width: 90%;
     }
     #menuWrapper {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 20px;
+        margin: 0;
+    }
+    .menuActions {
+        width: 190px;
+        font-size: 9pt;
+    }
+    .actionData img {
+        height: 70px;
+    }
+    .totalPoins {
+        width: 25%;
     }
     #mailMenu input{
         display: inline-block;
+    }
+    #reminders, #circleCare {
+        display: none;
     }
     
 }

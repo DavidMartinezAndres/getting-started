@@ -32,6 +32,15 @@ $( document ).ready(function() {
 
     //Mail stuff
     $('.expand-mail').click((ev) => {
+        if (ev.target.classList.contains('fa-angle-right')) {
+            ev.target.classList.remove('fa-angle-right')
+            ev.target.classList.add('fa-angle-down')
+        } else {
+            ev.target.classList.remove('fa-angle-down')
+            ev.target.classList.add('fa-angle-right')
+        }
+
+
         let element = ev.target.parentElement.parentElement.parentElement
         .querySelector("article")
 
@@ -45,6 +54,8 @@ $( document ).ready(function() {
     $('.delete-mail').click((ev) => {
         let element = ev.target.parentElement.parentElement.parentElement
         element.parentElement.removeChild(element)
+
+        element.querySelector("article")
     })
 
     

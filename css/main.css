@@ -210,11 +210,17 @@ article div {
 #mail-list {
     padding-left: 0px;
 }
+.hidden {
+    display: none;
+}
 #mail-list article {
     padding: 20px;
     border-top: solid 1px #c6d5d8;
     margin-bottom: 10px;
     background-color: #f8f8f8;
+}
+#mail-list .fa:hover {
+    cursor: pointer;
 }
 .mail {
     display: flex;

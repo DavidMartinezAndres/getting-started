@@ -22,12 +22,31 @@ $( document ).ready(function() {
 
     updateCalendar(now)
 
-    $( "#calendar-header .fa-angle-left" ).click(function() {
-        updateCalendar(now.subtract(2, 'months'))    
-    })
-    $( "#calendar-header .fa-angle-right" ).click(function() {
+    $( "#calendar-header .fa-angle-left" ).click(() =>
+    updateCalendar(now.subtract(2, 'months'))    
+    )
+    $( "#calendar-header .fa-angle-right" ).click(() =>
         updateCalendar(now.add(0, 'months'))
+    )
+
+
+    //Mail stuff
+    $('.expand-mail').click((ev) => {
+        let element = ev.target.parentElement.parentElement.parentElement
+        .querySelector("article")
+
+        if (element.classList.contains('hidden')) {
+            element.classList.remove('hidden')
+        } else {
+            element.classList.add('hidden')
+        }
     })
+
+    $('.delete-mail').click((ev) => {
+        let element = ev.target.parentElement.parentElement.parentElement
+        element.parentElement.removeChild(element)
+    })
+
     
 })
 

@@ -9,7 +9,7 @@
         width: 50%;
         margin: 0;
     }
-    .additionalBannerImg {
+    .additionalbanner-img {
         display: none;
     }
     nav ul {
@@ -26,23 +26,23 @@
     .wrapper { 
         width: 90%;
     }
-    #menuWrapper {
+    #menu-wrapper {
         margin: 0;
     }
-    .menuActions {
+    .menu-actions {
         width: 190px;
         font-size: 9pt;
     }
-    .actionData img {
+    .action-data img {
         height: 70px;
     }
     .totalPoins {
         width: 25%;
     }
-    #mailMenu input{
+    #mail-menu input{
         display: inline-block;
     }
-    #reminders, #circleCare {
+    #reminders, #circle-care {
         display: none;
     }
     

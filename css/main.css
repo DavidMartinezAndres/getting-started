@@ -24,7 +24,7 @@ input {
 .fa-circle {
     color: #cbcfd0;
 }
-.iconSelected {
+.icon-selected {
     color: #ff503d;
 }
 /* HEADER AND NAV */
@@ -45,11 +45,11 @@ nav ul {
     width: 40%;
     margin-left: 0;
 }
-.navOptions {
+.nav-options {
     display: flex;
     flex-direction: column;
 }
-.navOptions img {
+.nav-options img {
     align-self: center;
     margin-bottom: 10px;
     width: 28px;
@@ -62,10 +62,10 @@ nav ul {
     align-items: center;
 }
 /* MENU STYLES */
-#menuWrapper {
+#menu-wrapper {
     margin: 20px;
 }
-.menuActions {
+.menu-actions {
     display:inline-block;
     background-color: #f4f5f7;
     border: solid 1px #cccfd6;
@@ -76,7 +76,7 @@ nav ul {
     font-size: 16pt;
     font-weight: bold;
 }
-.actionData img {
+.action-data img {
     height: 100px;
 }
 .layer2 {
@@ -87,18 +87,18 @@ nav ul {
     bottom: 5px;
     right: 5px;
 }
-.actionData p {
+.action-data p {
     width: 140px;
     text-align: end;
     position: absolute;
     bottom: 19px;
     right: 11px;
 }
-.actionData img {
+.action-data img {
     margin-top: 5px;
     margin-left: 15px;
 }
-.totalPoints {
+.total-points {
     font-size: 11pt;
     text-align: center;
     position: absolute;
@@ -134,13 +134,13 @@ nav ul {
     text-transform: uppercase;
     position: relative;
 }
-.bannerImg {
+.banner-img {
     position: absolute;
     left:5%;
     height: 50px;
     float: left;
 }
-.additionalBannerImg {
+.additionalbanner-img {
     position: absolute;
     top: 25%;
     right: 100px;
@@ -159,19 +159,19 @@ nav ul {
 }
 /* MESSAGING STYLES */
 
-#mailList li {
+#mail-list li {
     border-bottom: solid 1px #c6d5d8;
 }
-#mailMenu {
+#mail-menu {
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px #e0dedf
 }
-#mailMenu ul {
+#mail-menu ul {
     margin: 0;
     display: flex;
 }
-.moreMessages {
+.more-messages {
     padding: 15px;
     margin-right: 50px;
     width: 185px;
@@ -181,7 +181,7 @@ nav ul {
     background-color: #ff503d;
     color: white;
 }
-.greenButton {
+.green-button {
     padding: 10px;
     font-weight: bold;
     border: none;
@@ -192,34 +192,34 @@ article div {
     margin-top: 30px;
     float: right;
 }
-.redButton {
+.red-button {
     padding: 10px;
     font-weight: bold;
     border: none;
     background-color: #ff503d;
     color: white;
 }
-#mailMenu li {
+#mail-menu li {
     padding: 15px;
     border-right: solid 1px #c6d5d8;
 }
-#mailList {
+#mail-list {
     padding-left: 0px;
 }
-#mailList li {
+#mail-list li {
     padding: 20px;
     padding-left: -40px;
     color: #6b6b6b;
     display: flex;
 }
-#mailList strong {
+#mail-list strong {
     width: 33%;
     color: #616161; 
 }
-#mailList div > * {
+#mail-list div > * {
     margin: 0px 15px;
 }
-#mailList li div {
+#mail-list li div {
     display: flex;
 }
 .left {
@@ -229,20 +229,20 @@ article div {
     margin-right: 0px;
 }
 /* CALENDAR STYLES  */
-#calendarWrapper {
+#calendar-wrapper {
     display: flex;
     padding: 25px;
 }
-#calendarWrapper > div {
+#calendar-wrapper > div {
     margin: 25px;
     flex-basis: 50%
 }
-#todaySchedule {
+#today-schedule {
     display: flex;
     flex-direction: column;
     color: #b3b4b6;
 }
-#todaySchedule h3 {
+#today-schedule h3 {
     font-size: 24pt;
     color: #939798;
 }
@@ -270,35 +270,35 @@ article div {
     padding: 5px;
     background-color: #dd4339;
 }
-.reminderInfo {
+.reminder-info {
     position: relative;
     left: 10%;    
     font-size: 18pt;
 }
-.expandedReminder p:first-child {
+.expanded-reminder p:first-child {
     color: #626262;
 }
-.expandedReminder {
+.expanded-reminder {
     padding: 15px;
     width: 98%;
     margin-top: -15px;
 }
-.expandedReminder p:first-child {
+.expanded-reminder p:first-child {
     font-size: 16pt;
     padding: 10px;
 }
-.buttonGroup {
+.button-group {
     width: 50%;
     margin: 0 auto;
 }
-.buttonGroup button{
+.button-group button{
     margin: 5px;
 }
 /* CALENDER STYLES */
 #calendar {
     height: 100%;
 }
-#calendarHeader {
+#calendar-header {
     font-size: 24pt;
     display: flex;
     margin-bottom: 20px;
@@ -318,63 +318,63 @@ td {
     border-radius: 45%;
     text-align: center;
 }
-.selectedDate {
+.selected-date {
     border: solid 1px #b19f95;
     color: white;
     background-color: #ff503d;  
 }
-.selectedDateLight {
+.selected-date-light {
     color: white;
     background-color: #ff8b81;
 }
 /* CIRCLE CARE STYLES */
-#circleNav {
+#circle-nav {
     display: flex;
     border: solid 1px  #dedddb;
 }
-#circleNav > div {
+#circle-nav > div {
     flex-basis: 33%;
     padding: 15px 0px;
     text-align: center;
     border-right: solid 1px #dedddb;
 }
-.selectedNav {
+.selected-nav {
     border-bottom: solid 5px #ff503b;
 }
 .pending {
     position: relative;
 }
-.careBadge {
+.care-badge {
     position: absolute;
     top: 20%;
     right: 30%;
 }
-.careBadge img {
+.care-badge img {
     height: 20px;
     position: absolute;
 }
-.careBadge p {
+.care-badge p {
     font-size: 11pt;
     color: white;
     position: absolute;
     left: 6px;
 }
-#myCircle {
+#my-circle {
     display: flex;
     flex-direction: column;
     background-color: #f7f6f4;
 }
-.circleInfo {
+.circle-info {
     margin: 30px auto;
     padding: 10px;
     border-radius: 2px;
     background-color: #e0dedf;
 } 
-#teamWrapper > div {
+#team-wrapper > div {
     float: left;
     width: 50%;
 }
-.profileCard {
+.profile-card {
     position: relative;
     margin-top: 30px;
     height: 150px;
@@ -383,17 +383,17 @@ td {
     border: solid 1px #d9d8d6;
     border-left: solid 8px #ff503b;
 }
-.profileCard button{
+.profile-card button{
     position: absolute;
     bottom: 0%;
     right: 0%;
 }
-.profileCard div:first-child{
+.profile-card div:first-child{
     position: absolute;
     bottom: 10%;
     left: 10%;
 }
-.userName {
+.user-name {
     text-align: right;
     position: absolute;
     top: 10%;

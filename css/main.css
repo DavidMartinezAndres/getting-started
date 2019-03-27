@@ -13,6 +13,9 @@ nav li {
 input {
     margin: 10px;
 }
+body {
+    max-width: 1300px;
+}
 /* COLORS STYLES */
 .text-primary {
     color: #868686;
@@ -188,6 +191,7 @@ nav ul {
     background-color: #00d9be;
     color: #00857b;
 }
+
 article div {
     margin-top: 30px;
     float: right;
@@ -206,11 +210,21 @@ article div {
 #mail-list {
     padding-left: 0px;
 }
-#mail-list li {
+#mail-list article {
+    padding: 20px;
+    border-top: solid 1px #c6d5d8;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+}
+.mail {
+    display: flex;
     padding: 20px;
     padding-left: -40px;
+}
+#mail-list li {
     color: #6b6b6b;
     display: flex;
+    flex-direction: column;
 }
 #mail-list strong {
     width: 33%;
@@ -298,10 +312,14 @@ article div {
 #calendar {
     height: 100%;
 }
+#calendar-header .fa:hover {
+    cursor: pointer;
+}
 #calendar-header {
     font-size: 24pt;
     display: flex;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 table {
     font-size: 24pt;
@@ -309,6 +327,7 @@ table {
     color: #a4a4a2;
 }
 th{
+    text-transform: uppercase;
     font-size: 24pt;
     font-weight: 100;
     padding: 5px;

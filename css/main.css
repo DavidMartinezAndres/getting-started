@@ -165,6 +165,9 @@ nav ul {
 }
 /* MESSAGING STYLES */
 
+#mail-list  {
+    padding-left: 0;
+}
 #mail-list li {
     border-bottom: solid 1px #c6d5d8;
 }
@@ -198,6 +201,7 @@ nav ul {
 article div {
     margin-top: 30px;
     float: right;
+    margin-bottom: 15px;
 }
 .red-button {
     padding: 10px;
@@ -210,8 +214,12 @@ article div {
     padding: 15px;
     border-right: solid 1px #c6d5d8;
 }
-#mail-list {
-    padding-left: 0px;
+.mail {
+    position: relative;
+}
+.right {
+    position: absolute;
+    right: 5px;
 }
 .hidden {
     display: none;
@@ -227,12 +235,10 @@ article div {
 }
 .mail {
     padding: 20px;
-    padding-left: -40px;
 }
 #mail-list li {
     color: #6b6b6b;
-    display: flex;
-    flex-direction: column;
+
 }
 #mail-list strong {
     color: #616161; 

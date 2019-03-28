@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     // Uncomment this line to change the language to english
-    // moment.locale('en')
+    moment.locale('en')
     let now = moment().startOf('month')
     console.log(now.format('MMMM Do YYYY, h:mm:ss a d'))
 
